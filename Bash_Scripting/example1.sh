@@ -20,7 +20,7 @@ path_exec="${path_exec//:}";
 #Sets working directory to the folder where the script is located
 cd "${path_exec%\/*}";
 
-#Executes script with or without parameters
+#Executes script with or without parameters ...
 if [[ ${path_param[@]} == "" ]];
     then "$path_exec";
     else "$path_exec" "${path_param[@]/#${path_exec%\/*}\/}";
