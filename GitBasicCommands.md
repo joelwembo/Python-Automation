@@ -15,4 +15,4 @@ Open Git Bash.
 Change the current working directory to your local repository.
 Stage the file for commit to your local repository.
 $ git add .
-# Adds the file to your local repository and stages it for commit. To unstage
+# Adds the file to your local repository and stages it for commit. To unstage y
