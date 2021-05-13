@@ -48,6 +48,8 @@ class CalculatorTest(unittest.TestCase):
         self.assertEqual(value, 1.0, FAILURE)
         self.assertEqual(value, self.calc.last_answer, FAILURE)
 
+      
+
     def test_subtract_negative(self):
         value = self.calc.subtract(NUMBER_2, NUMBER_1)
         self.assertEqual(value, -1.0, FAILURE)
@@ -66,3 +68,13 @@ class CalculatorTest(unittest.TestCase):
     def test_divide_by_zero(self):
         self.assertRaises(ZeroDivisionError, self.calc.divide, NUMBER_1, 0)
         
+# Creating XML report tests
+if __name__ == '__main__':
+    import xmlrunner
+
+    unittest.main(
+        testRunner=xmlrunner.XMLTestRunner(output='test-reports'),
+        failfast=False,
+        buffer=False,
+        catchbreak=False)
+
