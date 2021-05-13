@@ -1,9 +1,9 @@
 # Write a function that takes,,,
 
-def vowel_count(string):
+def vowel_count(data):
     vowels =['p', 'w','f','a', 'i', 't', 'e']
     count = 0
-    for ch in string: 
+    for ch in data: 
         if ch in vowels: 
             count += 1
     return count
@@ -22,4 +22,4 @@ def test_with_c_name():
     assert vowel_count('fabrice') == 4     
 
 def test_with_c_name():
-    assert vowel_count('joel wembo') == 3   
+    assert vowel_count('JOEL WEMBO') == 3   
