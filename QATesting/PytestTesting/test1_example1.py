@@ -3,7 +3,7 @@
 def vowel_count(data):
     vowels =['p', 'w','f','a', 'i', 't', 'e']
     count = 0
-    for ch in data: 
+    for ch in data.lower(): 
         if ch in vowels: 
             count += 1
     return count
