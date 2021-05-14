@@ -71,5 +71,10 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Here the testing Code    
-  
+# Here the testing Code   for pytest 
+#---------------------------------------
+
+linked_list1 = print_reverse([1, 2, 3, 4, 5])
+
+def test_print_reverse():
+    assert linked_list1 == '5->4->3->2->1'
