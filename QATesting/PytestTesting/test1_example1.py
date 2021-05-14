@@ -13,7 +13,9 @@ print(vowel_count('wembo'))
 print(vowel_count('fabrice'))
 
 def test_with_f_name():
-    assert vowel_count('otepa') == 4
+    assert vowel_count('otepa') == 8
+    
+
 
 def test_with_l_name():
     assert vowel_count('wembo') == 2

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorTest-20210514232945" tests="7" file=".py" time="0.081" timestamp="2021-05-14T23:29:45" failures="0" errors="0" skipped="0">
+	<testcase classname="CalculatorTest" name="test_add" time="0.043" timestamp="2021-05-14T23:29:45" file="..\Unittest\CalculatorTest.py" line="42"/>
+	<testcase classname="CalculatorTest" name="test_divide" time="0.005" timestamp="2021-05-14T23:29:45" file="..\Unittest\CalculatorTest.py" line="64"/>
+	<testcase classname="CalculatorTest" name="test_divide_by_zero" time="0.004" timestamp="2021-05-14T23:29:45" file="..\Unittest\CalculatorTest.py" line="69"/>
+	<testcase classname="CalculatorTest" name="test_last_answer_init" time="0.003" timestamp="2021-05-14T23:29:45" file="..\Unittest\CalculatorTest.py" line="38"/>
+	<testcase classname="CalculatorTest" name="test_multiply" time="0.011" timestamp="2021-05-14T23:29:45" file="..\Unittest\CalculatorTest.py" line="59"/>
+	<testcase classname="CalculatorTest" name="test_subtract" time="0.011" timestamp="2021-05-14T23:29:45" file="..\Unittest\CalculatorTest.py" line="47"/>
+	<testcase classname="CalculatorTest" name="test_subtract_negative" time="0.005" timestamp="2021-05-14T23:29:45" file="..\Unittest\CalculatorTest.py" line="54"/>
+</testsuite>
