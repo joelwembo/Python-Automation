@@ -1,16 +1,16 @@
 # Write a function that takes,,,
 
 def vowel_count(data):
-    vowels =['p', 'w','f','a', 'i', 't', 'e']
+    vowels =['p', 'w','f','a', 'i', 't', 'e', 'x']
     count = 0
     for ch in data.lower(): 
         if ch in vowels: 
             count += 1
     return count
 
-#print(vowel_count('otepa'))
-#print(vowel_count('wembo'))
-#print(vowel_count('fabrice'))
+print(vowel_count('otepa'))
+print(vowel_count('wembo'))
+print(vowel_count('fabrice'))
 
 def test_with_f_name():
     assert vowel_count('otepa') == 4
