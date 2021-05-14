@@ -61,11 +61,11 @@ def main():
 
     testmod()
 
-    linked_list = make_linked_list([14, 52, 14, 12, 43])
-    print("Linked List:")
-    print(linked_list)
-    print("Elements in Reverse:")
-    print_reverse(linked_list)
+   # linked_list = make_linked_list([14, 52, 14, 12, 43])
+   # print("Linked List:")
+   # print(linked_list)
+   # print("Elements in Reverse:")
+   # print_reverse(linked_list)
 
 
 if __name__ == "__main__":
@@ -74,7 +74,8 @@ if __name__ == "__main__":
 # Here the testing Code   for pytest 
 #---------------------------------------
 
-linked_list1 = print_reverse([1, 2, 3, 4, 5])
 
 def test_print_reverse():
-    assert linked_list1 == '5->4->3->2->1'
+    
+
+    assert print_reverse(linked_list) == '50,43,12,14,52,14, None'
