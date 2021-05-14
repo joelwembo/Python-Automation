@@ -295,12 +295,7 @@ def binary_search_by_recursion(
         return binary_search_by_recursion(sorted_collection, item, left, midpoint - 1)
     else:
         return binary_search_by_recursion(sorted_collection, item, midpoint + 1, right)
-
-
-
-    
-
-    
+  
 
 print(binary_search([0, 5, 7, 10, 15], 10))   
 
@@ -315,4 +310,7 @@ def test_binary_search_t3():
     assert binary_search([12, 5, 7, 10, 15,15,67,8,9,30,44,66,86,8,6,8], 44) == 10         
 
 def test_binary_search_t4():
-    assert binary_search([12, 5, 44, 10, 15,15,67,8,9,30,44,66,86,8,6,8], 44) == 2    
+    assert binary_search([12, 5, 44, 10, 15,15,67,8,9,30,44,66,86,8,6,8], 44) == 2  
+
+def test_binary_search_t5():
+    assert binary_search([], 0) == None       
