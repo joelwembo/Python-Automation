@@ -297,20 +297,25 @@ def binary_search_by_recursion(
         return binary_search_by_recursion(sorted_collection, item, midpoint + 1, right)
   
 
-print(binary_search([0, 5, 7, 10, 15], 10))   
+print(binary_search([0, 5, 7, 10, 18], 10))   
 
 def test_binary_search_t1():
-    assert binary_search([0, 5, 7, 10, 15], 10) == 3
+    assert binary_search([0, 5, 7, 10, 15,15], 10) == 3
+    print("Function 1 executed ")
 
 
 def test_binary_search_t2():
-    assert binary_search([12, 5, 7, 10, 15,15,67,8,9,30,44,66,86,8,6,8], 66) == 11   
+    assert binary_search([12, 5, 7, 10, 15,15,67,8,9,30,44,66,86,8,6,8], 66) == 11 
+    print("Function 2 executed ")  
 
 def test_binary_search_t3():
-    assert binary_search([12, 5, 7, 10, 15,15,67,8,9,30,44,66,86,8,6,8], 44) == 10         
+    assert binary_search([12, 5, 7, 10, 15,15,67,8,9,30,44,66,86,8,6,8], 44) == 10 
+    print("Function 3 executed ")        
 
 def test_binary_search_t4():
-    assert binary_search([12, 5, 44, 10, 15,15,67,8,9,30,44,66,86,8,6,8], 44) == 2  
+    assert binary_search([12, 5, 44, 10, 15,15,67,8,9,30,44,66,86,8,6,8], 44) == 2 
+    print("Function 4 executed ") 
 
 def test_binary_search_t5():
-    assert binary_search([], 0) == None       
+    assert binary_search([], 0) == None 
+    print("Function 1 executed ", "No Input")      
