@@ -28,5 +28,8 @@ def test_with_l_name():
 def test_with_c_name():
     assert vowel_count('fabrice') == 4     
 
-def test_with_c_name():
+def test_with_c_name_upper():
     assert vowel_count('JOEL WEMBO') == 4
+
+def test_with_c_upper_23():
+    assert vowel_count('JOEL WEMBO') == 8   
