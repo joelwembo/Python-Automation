@@ -1,3 +1,4 @@
+PYTTEST
 pytest: helps you write better programs
 The pytest framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.
 
@@ -47,4 +48,27 @@ Can run unittest (including trial) and nose test suites out of the box
 Python 3.6+ and PyPy 3
 
 Rich plugin architecture, with over 315+ external plugins and thriving community
+
+Run multiple tests
+pytest will run all files of the form test_*.py or *_test.py in the current directory and its subdirectories. More generally, it follows standard test discovery rules.
+
+Assert that a certain exception is raised¶
+Use the raises helper to assert that some code raises an exception:
+
+# content of test_sysexit.py
+import pytest
+
+
+def f():
+    raise SystemExit(1)
+
+
+def test_mytest():
+    with pytest.raises(SystemExit):
+        f()
+Execute the test function with “quiet” reporting mode:
+
+$ pytest -q test_sysexit.py
+.                                                                    [100%]
+1 passed in 0.12s
 
