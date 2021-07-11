@@ -38,4 +38,10 @@ def runSFTP(remotePath, localPath):
          print("All success" if result[0] == 1 else "Partial failure")
     print(result[1])
     sys.exit()
+    
+    def main():
+    remotePath = input("Enter the relative path of the server file or folder:")
+         localPath = input("Enter the absolute path of the client folder:")
+    runSFTP(remotePath, localPath)
+ 
  
