@@ -1,5 +1,4 @@
-# !/usr/bin/python3
-# coding: utf-8
+
  
 from config import sftp_config
 from clients import sftp_client
