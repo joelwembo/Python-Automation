@@ -14,7 +14,7 @@ search = driver.find_element_by_name("s")
 search.send_keys("java")
 search.send_keys(Keys.RETURN)
 
-#print(driver.page_source)
+print(driver.page_source)
 
 time.sleep(10)
 
