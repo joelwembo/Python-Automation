@@ -2,7 +2,7 @@ import sys
 from mysql.connector import connect, Error
 
 if len(sys.argv) != 4:
-        print ("please enter the Hostname to connect followed by:")
+        print ("please enter the Hostnames to connect followed by:")
         print ("mysql username;")
         print ("mysql db to connect;")
 else:
