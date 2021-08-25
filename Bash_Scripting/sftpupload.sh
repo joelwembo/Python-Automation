@@ -8,3 +8,4 @@ remote_path=/somewhere/or/other
 sftp -v -oIdentityFile=path user@server <<EOF
 put $local_path $remote_path
 EOF
+EOF
