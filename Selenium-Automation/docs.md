@@ -1,4 +1,4 @@
-Selenium overview
+# Selenium overview
 Is Selenium for you? See an overview of the different project components.
 Selenium is not just one tool or API but it composes many tools.
 
@@ -8,7 +8,7 @@ If you are beginning with desktop website or mobile website test automation, the
 IDE
 IDE (Integrated Development Environment) is the tool you use to develop your Selenium test cases. It’s an easy-to-use Chrome and Firefox extension and is generally the most efficient way to develop test cases. It records the users’ actions in the browser for you, using existing Selenium commands, with parameters defined by the context of that element. This is not only a time-saver but also an excellent way of learning Selenium script syntax.
 
-Grid
+# Grid
 Selenium Grid allows you to run test cases in different machines across different platforms. The control of triggering the test cases is on the local end, and when the test cases are triggered, they are automatically executed by the remote end.
 
 After the development of the WebDriver tests, you may face the need of running your tests on multiple browser and operating system combinations. This is where Grid comes into the picture.
@@ -33,7 +33,7 @@ The driver is specific to the browser, such as ChromeDriver for Google’s Chrom
 
 This simple example above is direct communication. Communication to the browser may also be remote communication through Selenium Server or RemoteWebDriver. RemoteWebDriver runs on the same system as the driver and the browser.
 
-Remote Communication
+# Remote Communication
 Remote communication can also take place using Selenium Server or Selenium Grid, both of which in turn talk to the driver on the host system
 
 Remote Communication with Grid
