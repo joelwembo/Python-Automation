@@ -40,3 +40,9 @@ Remote Communication with Grid
 Where Frameworks fit in
 WebDriver has one job and one job only: communicate with the browser via any of the methods above. WebDriver does not know a thing about testing: it does not know how to compare things, assert pass or fail, and it certainly does not know a thing about reporting or Given/When/Then grammar.
 
+This is where various frameworks come in to play. At a minimum you will need a test framework that matches the language bindings, e.g. NUnit for .NET, JUnit for Java, RSpec for Ruby, etc.
+
+The test framework is responsible for running and executing your WebDriver and related steps in your tests. As such, you can think of it looking akin to the following image.
+
+Test Framework
+Natural language frameworks/tools such as Cucumber may exist as part of that Test Framework box in the figure above, or they may wrap the Test Framework entirely in their own implementation.
