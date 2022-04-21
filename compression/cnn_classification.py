@@ -16,6 +16,7 @@ in the parent dataste folder
 in the test set folder
 3. The labels of the iamges will be extracted from the folder name
 the image is present in.
+ Author : JOEL OTEPA WEMBO
 
 """
 
