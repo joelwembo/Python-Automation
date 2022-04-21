@@ -1,5 +1,7 @@
 """
     Implemented an algorithm using opencv to convert a colored image into its negative
+    Author : JOEL OTEPA WEMBO
+    
 """
 from cv2 import destroyAllWindows, imread, imshow, waitKey
 
