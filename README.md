@@ -195,3 +195,6 @@ Push it to your github repository:
 
 git push https://github.com/<YOUR ACCOUNT>/<YOUR REPO NAME>.git master
 Go check it out on the Web – do you see greetings.txt?
+        
+# Bash Scripting Cheatsheet
+        https://devhints.io/bash
