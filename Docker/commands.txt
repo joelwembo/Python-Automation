@@ -1,0 +1,10 @@
+docker-compose build
+In case of success, last lines of the output should be roughly like these:
+
+Removing intermediate container 757d0bd934ca
+ ---> b4bba357f84c
+Step 11/11 : COPY . /code/
+ ---> fa5d799d8fc1
+
+Successfully built fa5d799d8fc1
+Successfully tagged tutorial_web:latest
