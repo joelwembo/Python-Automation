@@ -1,3 +1,4 @@
+# Source : https://soshace.com/dockerizing-django-with-postgres-redis-and-celery/
 version: '3'
  
 services:
